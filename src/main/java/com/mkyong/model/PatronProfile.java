@@ -1,7 +1,6 @@
 package com.mkyong.model;
 
 import javax.persistence.*;
-import java.util.Date;
 
 @Entity(name = "PATRON_PROFILE")
 public class PatronProfile {
@@ -13,7 +12,7 @@ public class PatronProfile {
     @Column(name = "FIRSTNAME")
     String firstname;
 
-    //@Temporal(TemporalType.DATE)
+
     @Id
     @Column(name = "PATRONPROFILEID")
     int patronprofileid;

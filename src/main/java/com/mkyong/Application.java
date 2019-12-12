@@ -27,8 +27,8 @@ public class Application implements CommandLineRunner {
     @Autowired
     DataSource dataSource;
 
-    @Autowired
-    PatronProfileRepository patronProfileRepository;
+//    @Autowired
+ //   PatronProfileRepository patronProfileRepository;
 
     public static void main(String[] args) throws Exception {
         SpringApplication.run(Application.class, args);
